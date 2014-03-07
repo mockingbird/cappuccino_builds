@@ -1,0 +1,15 @@
+@STATIC;1.0;t;895;CPRuleEditorPredicateLeftExpression = "CPRuleEditorPredicateLeftExpression";
+CPRuleEditorPredicateRightExpression = "CPRuleEditorPredicateRightExpression";
+CPRuleEditorPredicateComparisonModifier = "CPRuleEditorPredicateComparisonModifier";
+CPRuleEditorPredicateOptions = "CPRuleEditorPredicateOptions";
+CPRuleEditorPredicateOperatorType = "CPRuleEditorPredicateOperatorType";
+CPRuleEditorPredicateCustomSelector = "CPRuleEditorPredicateCustomSelector";
+CPRuleEditorPredicateCompoundType = "CPRuleEditorPredicateCompoundType";
+CPRuleEditorRowsDidChangeNotification = "CPRuleEditorRowsDidChangeNotification";
+CPRuleEditorRulesDidChangeNotification = "CPRuleEditorRulesDidChangeNotification";
+CPRuleEditorNestingModeSingle = 0;
+CPRuleEditorNestingModeList = 1;
+CPRuleEditorNestingModeCompound = 2;
+CPRuleEditorNestingModeSimple = 3;
+CPRuleEditorRowTypeSimple = 0;
+CPRuleEditorRowTypeCompound = 1;
