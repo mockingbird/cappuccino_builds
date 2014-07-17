@@ -1,0 +1,15 @@
+@STATIC;1.0;t;904;CPApp = nil;
+CPApplicationWillFinishLaunchingNotification = "CPApplicationWillFinishLaunchingNotification";
+CPApplicationDidFinishLaunchingNotification = "CPApplicationDidFinishLaunchingNotification";
+CPApplicationWillTerminateNotification = "CPApplicationWillTerminateNotification";
+CPApplicationWillBecomeActiveNotification = "CPApplicationWillBecomeActiveNotification";
+CPApplicationDidBecomeActiveNotification = "CPApplicationDidBecomeActiveNotification";
+CPApplicationWillResignActiveNotification = "CPApplicationWillResignActiveNotification";
+CPApplicationDidResignActiveNotification = "CPApplicationDidResignActiveNotification";
+CPApplicationDidChangeScreenParametersNotification = "CPApplicationDidChangeScreenParametersNotification";
+CPTerminateNow = YES;
+CPTerminateCancel = NO;
+CPTerminateLater = -1;
+CPRunStoppedResponse = -1000;
+CPRunAbortedResponse = -1001;
+CPRunContinuesResponse = -1002;
