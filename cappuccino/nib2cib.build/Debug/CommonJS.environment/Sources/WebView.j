@@ -1,0 +1,20 @@
+@STATIC;1.0;I;18;AppKit/CPWebView.jt;1042;objj_executeFile("AppKit/CPWebView.j", NO);{
+var the_class = objj_getClass("CPWebView")
+if(!the_class) throw new SyntaxError("*** Could not find definition for class \"CPWebView\"");
+var meta_class = the_class.isa;class_addMethods(the_class, [new objj_method(sel_getUid("NS_initWithCoder:"), function $CPWebView__NS_initWithCoder_(self, _cmd, aCoder)
+{
+    return objj_msgSendSuper({ receiver:self, super_class:objj_getClass("CPWebView").super_class }, "NS_initWithCoder:", aCoder);
+}
+,["id","CPCoder"])]);
+}{var the_class = objj_allocateClassPair(CPWebView, "WebView"),
+meta_class = the_class.isa;objj_registerClassPair(the_class);
+class_addMethods(the_class, [new objj_method(sel_getUid("initWithCoder:"), function $WebView__initWithCoder_(self, _cmd, aCoder)
+{
+    return self.isa.objj_msgSend1(self, "NS_initWithCoder:", aCoder);
+}
+,["id","CPCoder"]), new objj_method(sel_getUid("classForKeyedArchiver"), function $WebView__classForKeyedArchiver(self, _cmd)
+{
+    return CPWebView.isa.objj_msgSend0(CPWebView, "class");
+}
+,["Class"])]);
+}
